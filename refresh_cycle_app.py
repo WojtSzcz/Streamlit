@@ -23,3 +23,5 @@ what = st.selectbox('Co narysować?', ['PKB', 'Populacja'])
 
 sleep(3)
 st.bar_chart(data=country_df, x="Rok", y=what)
+
+pip list
